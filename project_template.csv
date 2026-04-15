@@ -1,0 +1,8 @@
+Activity,Label,Predecessors,Minimum,MostLikely,Maximum
+Design,A,,16,21,26
+Build prototype,B,A,3,6,9
+Evaluate equipment,C,A,5,7,9
+Test prototype,D,B,2,3,4
+Write equipment report,E,"C,D",4,6,8
+Write methods report,F,"C,D",6,8,10
+Write final report,G,"E,F",1,2,3
